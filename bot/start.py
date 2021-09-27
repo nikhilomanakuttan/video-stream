@@ -47,7 +47,7 @@ async def start(_, m: Message):
                         "🤴 ᴏᴡɴᴇʀ ", url="https://t.me/Username_lost")
                 ], [
                     InlineKeyboardButton(
-                        "🌟 ʙᴏᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʟɪɴᴋ 🌟", callback_data="cblist")
+                        "🌟 ʙᴏᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʟɪɴᴋ 🌟", url="https://github.com/levina-lab/video-stream")
                 ]]
             ))
     else:
