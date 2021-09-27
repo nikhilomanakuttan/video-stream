@@ -36,30 +36,18 @@ async def _human_time_duration(seconds):
 @Client.on_message(command(["start", f"start@{Veez.BOT_USERNAME}"]))
 async def start(_, m: Message):
     if m.chat.type == "private":
-        await m.reply_text(
-            f"✨ **Hello there, I am a telegram group video streaming bot.**\n\n💭 **I was created to stream videos in group "
-            f"video chats easily.**\n\n❔ **To find out how to use me, please press the help button below** 👇🏻",
+        await m.reply_photo(
+        photo="https://telegra.ph/file/9a941c07696b7469fc4a6.png",
+            caption=f"**ഹലോ മച്ചാനെ ഞാൻ @Cinimaadholokam ഗ്രൂപ്പിൽ മാത്രമേ സപ്പോർട്ട് ആവുകയുള്ളൂ. താഴെ source കോഡ് കോടുത്തിട്ടുണ്ട് വേണമെങ്കിൽ സ്വന്തമായി Deploy ചെയ്തോ 🤪**",
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url=f"https://t.me/{Veez.BOT_USERNAME}?startgroup=true")
+                        "🥳 ɢʀᴏᴜᴘ", url="https://t.me/CinimaAdholokam "),
+                    InlineKeyboardButton(
+                        "🤴 ᴏᴡɴᴇʀ ", url="https://t.me/Username_lost")
                 ], [
                     InlineKeyboardButton(
-                        "❔ HOW TO USE THIS BOT", callback_data="cbguide")
-                ], [
-                    InlineKeyboardButton(
-                        "🌐 Terms & Condition", callback_data="cbinfo")
-                ], [
-                    InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/VeezSupportGroup"),
-                    InlineKeyboardButton(
-                        "📣 Channel", url="https://t.me/levinachannel")
-                ], [
-                    InlineKeyboardButton(
-                        "👩🏻‍💻 Developer", url="https://t.me/dlwrml")
-                ], [
-                    InlineKeyboardButton(
-                        "📚 All Command List", callback_data="cblist")
+                        "🌟 ʙᴏᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʟɪɴᴋ 🌟", callback_data="cblist")
                 ]]
             ))
     else:
