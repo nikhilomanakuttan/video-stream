@@ -56,7 +56,7 @@ TAP THIS: [![GenerateString](https://img.shields.io/badge/repl.it-generateString
 ## 💜 Deploy To Heroku
 The easy way to host this bot, deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/video-stream)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nikhilomanakuttan/video-stream)
 
 ## 🌀 Run On Workflows
 
